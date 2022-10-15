@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2 class="projectTitle">Vanilla Js Guessing Game</h2>
+
+
+    <div class="box playerOneNameBox">
+        <h1 class="playerOneStartTitle">Wanna Play game?</h1>
+        <input type="text" class="playerOneStartInput" placeholder="Enter Your Name">
+        <button class="playerOneStartButton">Start Game</button>
+        <h3 class="playerOneStartError"></h3>
+    </div>
+
+    <div class="box playerOneNumberBox">
+        <h1 class="playerOneNumberTitle">Player-1 (<span class="playerOneName">Player Name</span>)</h1>
+        <input type="password" class="playerOneNumberInput" placeholder="Enter a Number Between (1-10)">
+        <button class="playerOnePlayButton">Let's Play</button>
+        <h3 class="playerOneNumberError"></h3>
+    </div>
+
+    <div class="box playerTwoNameBox">
+        <h1 class="playerTwoStartTitle">Player- 2</h1>
+        <input type="text" class="playerTwoStartInput" placeholder="Enter Your Name">
+        <button class="playerTwoStartButton">Start Game</button>
+        <h3 class="playerTwoStartError"></h3>
+    </div>
+
+    <div class="box playerTwoNumberBox">
+        <h1 class="playerTwoNumberTitle">Player-2 (<span class="playerTwoName">Player Name</span>)</h1>
+        <p>Chance : <span class="playerTwoCounting">5</span></p>
+        <input type="text" class="playerTwoNumberInput" placeholder="Guess a Number Between (1-10)">
+        <button class="playerTwoPlayButton">Guess</button>
+        <h3 class="playerTwoNumberError"></h3>
+    </div>
+
+    <div class="box playerThreeNameBox">
+        <h1 class="playerThreeStartTitle">Player- 3</h1>
+        <input type="text" class="playerThreeStartInput" placeholder="Enter Your Name">
+        <button class="playerThreeStartButton">Start Game</button>
+        <h3 class="playerThreeStartError"></h3>
+    </div>
+
+    <div class="box playerThreeNumberBox">
+        <h1 class="playerThreeNumberTitle">Player-3 (<span class="playerThreeName">Player Name</span>)</h1>
+        <p>Chance : <span class="playerThreeCounting">5</span></p>
+        <input type="text" class="playerThreeNumberInput" placeholder="Guess a Number Between (1-10)">
+        <button class="playerThreePlayButton">Guess</button>
+        <h3 class="playerThreeNumberError"></h3>
+    </div>
+
+    <div class="box resultBox">
+        <h1>---------- Result ----------</h1>
+
+
+        <h1 class="playerOneResult">Player-1 <span class="resultPlayerOneName">Player Name</span></h1>
+        <h1 class="playerTwoResult">Player-2 <span class="resultPlayerTwoName">Player Name</span></h1>
+        <h1 class="playerThreeResult">Player-3 <span class="resultPlayerThreeName">Player Name</span></h1>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

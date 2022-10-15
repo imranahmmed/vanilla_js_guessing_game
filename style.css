@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to right, #001a0f, #001112);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: calc(100vh - 60px);
+    font-family: monospace;
+}
+
+input {
+    font-family: monospace;
+}
+
+button {
+    font-family: monospace;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+.projectTitle {
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+
+.box {
+    width: 35%;
+    text-align: center;
+    background-color: transparent;
+    /* background-color: #001212; */
+    /* background: linear-gradient(to right, #001a0f, #001112); */
+    -webkit-box-shadow: inset 0px 0px 37px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: inset 0px 0px 37px 0px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 0px 37px 0px rgba(0, 0, 0, 1);
+    padding: 70px;
+    border-radius: 30px;
+}
+
+.playerOneStartInput,
+.playerTwoStartInput,
+.playerThreeStartInput {
+    height: 27px;
+    width: 95%;
+    padding: 17px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 44px;
+    font-weight: 700;
+    border: 1px solid #D9D9D9;
+    margin: 30px 0;
+}
+
+.playerOneStartInput:hover,
+.playerOneStartInput:focus,
+.playerTwoStartInput:hover,
+.playerTwoStartInput:focus,
+.playerThreeStartInput:hover,
+.playerThreeStartInput:focus {
+    border: 1px solid #222;
+    outline: 0;
+}
+
+.playerOneStartInput::placeholder,
+.playerTwoStartInput::placeholder,
+.playerThreeStartInput::placeholder {
+    color: #D9D9D9;
+}
+
+.playerOneStartButton,
+.playerTwoStartButton,
+.playerThreeStartButton {
+    background-color: #7041D3;
+    border: 0;
+    padding: 15px 50px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.playerOneStartError,
+.playerTwoStartError,
+.playerThreeStartError {
+    padding: 14px;
+    background-color: brown;
+    margin-top: 30px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: none;
+}
+
+
+
+.playerOneNumberInput,
+.playerTwoNumberInput,
+.playerThreeNumberInput {
+    height: 27px;
+    width: 95%;
+    padding: 17px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 44px;
+    font-weight: 700;
+    border: 1px solid #D9D9D9;
+    margin: 30px 0;
+}
+
+.playerOneNumberInput:hover,
+.playerOneNumberInput:focus,
+.playerTwoNumberInput:hover,
+.playerTwoNumberInput:focus,
+.playerThreeNumberInput:hover,
+.playerThreeNumberInput:focus {
+    border: 1px solid #222;
+    outline: 0;
+}
+
+.playerOneNumberInput::placeholder,
+.playerTwoNumberInput::placeholder,
+.playerThreeNumberInput::placeholder {
+    color: #D9D9D9;
+}
+
+.playerOnePlayButton,
+.playerTwoPlayButton,
+.playerThreePlayButton {
+    background-color: #7041D3;
+    border: 0;
+    padding: 15px 50px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+
+
+.playerOneNumberError,
+.playerTwoNumberError,
+.playerThreeNumberError {
+    padding: 14px;
+    background-color: brown;
+    margin-top: 30px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: none;
+}
+
+.playerOneNumberBox,
+.playerTwoNumberBox,
+.playerThreeNumberBox {
+    display: none;
+}
+
+.playerTwoNameBox,
+.playerThreeNameBox {
+    display: none;
+}
+
+
+.resultBox {
+    display: none;
+}
+
+.resultBox h1 {
+    position: relative;
+    padding: 10px 0;
+}
+
+.resultBox h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(0, 212, 255, 0) 100%);
+}
+
+.resultBox h1:first-child::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(0, 212, 255, 0) 100%);
+}
+
+/* .playerOneResult,
+.playerTwoResult,
+.playerThreeResult {
+    padding: 30px 0!important;
+} */
